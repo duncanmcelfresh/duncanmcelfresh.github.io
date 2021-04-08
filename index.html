@@ -4,654 +4,933 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Duncan C McElfresh</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom styles -->
     <link href="./index_files/custom.css" rel="stylesheet">
 
-    <!-- for social links -->
-    <link href="./index_files/bootstrap-social.css" rel="stylesheet">
-    <link href="./academic-icons/css/academicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f6d2265d2b.js" crossorigin="anonymous"></script>
 
 
 </head>
 
-<body id="page-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-customdark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Duncan C McElfresh</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-mylight fixed-top" id="main-nav">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top">Duncan C McElfresh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#research">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#service">Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#connect">Connect</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="files/CV_DuncanCMcElfresh.pdf" target="_blank">C.V.</a>
-                    </li>
-                </ul>
-            </div>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#research">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#service">Service</a>
+                </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="#connect">Connect</a>-->
+                <!--                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="files/CV_DuncanCMcElfresh.pdf" target="_blank">C.V.</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <header class="bg-mylight text-white">
-        <div class="container d-flex flex-wrap">
-            <div class="col-md-8">
-                <h2 class="display-3">Hello!</h2>
-                <h4 class="display-5">I'm a PhD candidate in Applied Mathematics (<a href="http://amsc.umd.edu/"
-                        class="hdr" target="_blank" a="">AMSC</a>) at the University of Maryland, and my research
-                    advisor is <a href="http://jpdickerson.com/" class="hdr" target="_blank" a="">John P Dickerson</a>.
+<header class="bg-mylight">
+    <div class="container">
+        <div class="row">
+            <div class="my-auto col-md-8">
+                <h4 class="color-darkblue" style="text-align: justify;">Hello! I'm <span style="color: #B03C21">Duncan C McElfresh</span>,
+                    a PhD candidate in Applied
+                    Mathematics (<a
+                            class="custom"
+                            href="http://amsc.umd.edu/"
+                            class="hdr" target="_blank"
+                            a="">AMSC</a>) at the
+                    University of
+                    Maryland. I study applications of algorithms and AI for resource allocation and decision
+                    making.</h4>
+
+                <h4 class="color-darkblue" style="text-align: justify;">
+                    I am currently looking for post-PhD positions in academia and industry.
                 </h4>
-                <h4 class="display-5">We work on problems in public resource allocation, matching, and market design. My
-                    primary tools include optimization, computational modeling, and machine learning.</h4>
+
+                <a class="custom-fa" href="https://github.com/duncanmcelfresh" target="_blank"><i
+                        class="fa fa-github-square fa-2x"></i></a>
+                <a class="custom-fa" href="https://scholar.google.com/citations?user=BcSedrEAAAAJ&hl=en"
+                   target="_blank"><i
+                        class="fa fa-graduation-cap fa-2x"></i></a>
+                <a class="custom-fa" href="https://www.linkedin.com/in/duncan-mcelfresh-331677a1/" target="_blank"><i
+                        class="fa fa-linkedin-square fa-2x"></i></a>
+
+                <a href="https://scholar.google.com/citations?user=BcSedrEAAAAJ&amp;hl=en"
+                   target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a>
+                <!--                    <li class="list-group-item-light bg-light"> dmcelfre@umd.edu </li>-->
+
             </div>
             <div class="col-md-4">
-                <img class="img-fluid rounded-circle mx-auto border-custom" src="./img/profile.jpg" alt="">
-            </div>
-        </div>
-    </header>
-
-
-    <section id="research" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Research</h2>
-                    <p class="top-buffer">My research has touched on several areas, including <a
-                            class="js-scroll-trigger" href="#research-kex">Kidney Exchange</a>, <a
-                            class="js-scroll-trigger" href="#research-blood">Blood Donation</a>, <a
-                            class="js-scroll-trigger" href="#research-preference">Preference Elicitation for Policy
-                            Design</a>, and how to design and apply these tools in a <a class="js-scroll-trigger"
-                            href="#research-responsible">responsible way</a>.</p>
-
-
-                    <div class="row">
-                        <div class="col-7">
-                            <h2 id="research-kex"><small>Kidney Exchange</small></h4>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/kex.png" alt="kidney exchange" />
-                        </div>
-                    </div>
-                    <p></p>
-                    <p>Patients with kidney failure have only two options: a lifetime on dialysis, or kidney
-                        transplantation. Dialysis is far more expensive and burdensome than transplantation, however
-                        donor kidneys are scarce — on average, <a
-                            href="https://optn.transplant.hrsa.gov/learn/professional-education/kidney-allocation-system/"
-                            target="_blank">20 people die each day in the US while waiting for a transplant</a>.
-                        Furthermore, many patients in need of a kidney have willing living donors, but cannot undergo
-                        transplantation due to medical incompatibilities.</p>
-
-                    <p>To address this supply-demand mismatch, kidney exchange allows patients with willing living
-                        donors to swap their donors in order to find a compatible (or better) patient-donor match.
-                        Formulated as an optimization problem, kidney exchange is NP-hard and APX-hard, though modern
-                        exchanges are solvable in a reasonable amount of time (due to efficient formulations such as <a
-                            href="https://dl.acm.org/citation.cfm?id=2940759" target="_blank">PICEF</a> and <a
-                            href="http://www.pnas.org/content/112/3/663.short" target="_blank">PC-TSP</a>).</p>
-
-
-                    <h3 class="display-5">My Work</h3>
-
-                    <p>In addition to being computationally hard, kidney exchange raises several logistical and ethical
-                        challenges. My research has touched on several of these challenges, including: fairness for
-                        marginalized patients, robustness to uncertainty, and moral considerations of designing a kidney
-                        exchange mechanism. </p>
-
-
-                    <h4 class="display-5">Robustness to Uncertainty</h4>
-                    There are many sources of uncertainty in real kidney exchanges — due to medical, moral, and policy
-                    factors. These sources of uncertainty are difficult to characterize, and can severely impact the
-                    outcome of an exchange. We investigate techniques from robust optimization to address this problem.
-                    <p></p>
-
-                    <h5>Relevant Work:</h5>
-                    <ul>
-                        <li class="list-group-item bg-light"><b>McElfresh, Duncan C</b>, Michael Curry, Tuomas Sandholm,
-                            and John P Dickerson, "Improving Policy-Constrained Kidney Exchange via Pre-Screening.”
-                            <i>Advances in Neural Information Processing Systems 33: Annual Conference on Neural
-                                Information Processing Systems (NeurIPS)</i>, 2020.
-                            (<a href="files/KPD_PreScreen_NeurIPS20.pdf" target="_blank" a="">pdf</a>) [<a href="https://arxiv.org/abs/2010.12069" target="_blank">arXiv</a>]</li>
-                        <li class="list-group-item bg-light">Bidkhori, Hoda, John P Dickerson, Ke Ren, and <b>Duncan C
-                                McElfresh</b>. “Kidney exchange with Inhomogeneous Edge Existence Uncertainty.”
-                            <i>Conference on Uncertainty in Artificial Intelligence (UAI)</i>. 2020.</li>
-                         <li class="list-group-item bg-light"><b>McElfresh, Duncan C</b>, Hoda Bidkhori, and John P
-                            Dickerson, "Scalable Robust Kidney Exchange.” <i>Conference on Artificial Intelligence
-                                (AAAI)</i>, 2019. (<a href="files/robust_kex_aaai19.pdf" target="_blank" a="">pdf</a>)</li>
-                    </ul>
-
-                                        <h4 class="display-5">Fairness in Kidney Exchange</h4>
-                    <p>How can we prioritize marginalized patients, without severely impacting the overall exchange? We
-                        study several different methods for enforcing this notion of fairness, and demonstrate their
-                        effects on data collected from real exchanges.</p>
-
-                    <h5>Relevant Work:</h5>
-                    <ul>
-                        <li class="list-group-item bg-light"><b>McElfresh, Duncan C</b>, and John P Dickerson,
-                            "Balancing lexicographic fairness and a utilitarian objective with application to kidney
-                            exchange." <i>Conference on Artificial Intelligence (AAAI)</i>, 2018. (<a
-                                href="files/kex_fairness_aaai.pdf" target="_blank" a="">pdf</a>)</li>
-                    </ul>
-
-                    <h4 class="display-5">Ethics and Kidney Exchange</h4>
-
-                    <p>Designing a kidney exchange program requires input from medical professionals, policymakers,
-                        computer scientists, and ethicists. A "good" program should be both technically- and
-                        morally-sound — however technical experts (e.g., computer scientists) and stakeholders (e.g.,
-                        medical professionals) often work independently. We propose a formal division of labor between
-                        technical experts and stakeholders, and outline a framework through which these experts can
-                        collaborate. Through this framework we analyze existing kidney exchange programs and survey the
-                        technical literature on kidney exchange algorithms. We identify areas for future collaboration
-                        between technical experts and stakeholders.
-                    </p>
-
-                    <h5>Relevant Work:</h5>
-                    <ul>
-
-                        <li class="list-group-item bg-light">
-                            <b>McElfresh, Duncan C</b>, Vincent Conitzer, and John P Dickerson. “Ethics and Mechanism
-                            Design in Kidney Exchange.” (Working paper).
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            <i>Presentation:</i> <b>McElfresh, Duncan C</b>, Patricia Mayer, Gabriel Schnickel, and
-                            John P Dickerson. <i>"Ok Google: Who Gets the Kidney?": Artificial Intelligence and
-                                Transplant Algorithms.</i> Panel presentation and discussion at the annual meeting of
-                            the American Society of Bioethics and Humanities (ASBH), Anaheim, CA. (<a
-                                href="files/OK_Google_ASBH_2018.pdf" target="_blank" a="">slides</a>)
-                        </li>
-
-                    </ul>
-
-
-
-                    <div class="row">
-                        <div class="col-7">
-                            <h2 id="research-blood"><small>Blood Donation</small></h2>
-                        </div>
-                        <div class="col-5">
-                            <img src="img/blood.png" alt="blood matching" />
-                        </div>
-                    </div>
-
-                    <p></p>
-
-                    <p>Blood is a scarce resource that can save the lives of those in need, and managing the blood
-                        supply chain has been a topic of research for decades. We consider an aspect of the blood supply
-                        chain that is seldom addressed by the literature: coordinating a network of donors to meet
-                        demand from a network of recipients. The advent of massive online networks presents an
-                        unprecedented opportunity to increase the number and impact of blood donations.</p>
-
-                    <h5>Relevant Work:</h5>
-
-                    <ul>
-
-                        <li class="list-group-item bg-light">
-                            <b>McElfresh, Duncan C</b>, Christian Kroer, Sergey Pupyrev, Eric
-                            Sodomka, Karthik Abinav Sankararaman, Zack Chauvin, Neil Dexter, John P Dickerson. “Matching
-                            Algorithms for Blood Donation” <i>The 21st ACM Conference on Economics and Computation
-                            (EC)</i><a href="files/blood_matching_EC20.pdf"></a>. 2020. (<a href="https://dl.acm.org/doi/abs/10.1145/3391403.3399458" target="_blank">link</a>)
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            <i>Poster and Presentation:</i> <b>McElfresh, Duncan C</b>, Christian Kroer, Sergey
-                            Pupyrev, Eric Sodomka, John P Dickerson. “Matching Algorithms for Blood Donation.”
-                            <i>Workshop on Mechanism Design for Social Good <a href="http://www.md4sg.com"
-                                    target="_blank" a="">MD4SG</a></i>, 2019.</li>
-                    </ul>
-
-
-
-                    <div class="row">
-                        <div class="col-7">
-                            <h2 id="research-preference"><small>Preference Elicitation</small></h2>
-                            <h3>for Policy Design</h3>
-
-                        </div>
-                        <div class="col-5">
-                            <img src="img/elicitation.png" alt="preference elicitation" />
-                        </div>
-                    </div>
-
-                    <p></p>
-
-                    <p>Preference elicitation is concerned with figuring out what people want, by asking carefully
-                        selected questions. This field has a rich literature with roots in marketing, auctions, and
-                        finance — among other applications. We use preference elicitation for a different purpose: to
-                        design algorithms and policies that respect stakeholder interests. We are currently developing
-                        elicitation schemes to identify policy priorities in <b>kidney exchange</b> and <b>public
-                            housing allocation</b>.</p>
-
-                    <h5>Relevant Work:</h5>
-                    <ul>
-
-
-                        <li class="list-group-item bg-light">
-                            Phebe Vayanos, <b>Duncan C McElfresh</b>, Yingxiao Ye, John P Dickerson, and Eric Rice.
-                            “Active Preference Elicitation via Adjustable Robust Optimization.” (<a
-                                href="files/Active_Preference_Elicitation_via_Adjustable_Robust_Optimization.pdf"
-                                target="_blank" a="">pdf</a>) <i>(Under review at Management Science.)</i>
-                        </li>
-
-
-                        <li class="list-group-item bg-light">
-                            <i>Presentation:</i> <b>McElfresh, Duncan C</b>, Phebe Vayanos, Eric Rice, and John P
-                            Dickerson. “Optimizing Public Policy for Homelessness Assistance.” <i>INFORMS Annual
-                                Meeting</i>, 2019.
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            <i>Presentation:</i> <b>McElfresh, Duncan C</b>, Phebe Vayanos, John P Dickerson. “Robust
-                            Active Preference Elicitation, for Learning Policy Priorities.” Presentation at 2019 <a
-                                href="https://connect.informs.org/rmp/home" target="_blank" a="">INFORMS Revenue
-                                Management & Pricing Workshop</a>.
-                        </li>
-
-
-                    </ul>
-
-
-
-                    <div class="row">
-                        <div class="col-7">
-                            <h2 id="research-responsible"><small>Responsible AI Design</small></h2>
-                        </div>
-                        <div class="col-4">
-                            <img src="img/responsible.png" alt="responsible AI design" />
-                        </div>
-
-                    </div>
-
-                    <p></p>
-
-                    <p>
-                        AI applications in resource allocation and market design can have a measurable positive impact
-                        on society; indeed, in the case of kidney exchange and blood donations, AI-powered tools can
-                        literally help save lives. These AI applications can also have unintended consequences. Some of
-                        my work has focused on understanding these consequences. For example: How does an AI-generated
-                        suggestion impact a decision-maker's behavior? Does the general public agree with, or
-                        understand, the notions of <i>fairness</i> or <i>bias</i> defined by computer scientists?
-                    </p>
-
-                    <h5>Relevant Work:</h5>
-                    <ul>
-
-                        <li class="list-group-item bg-light">
-                            <b>McElfresh, Duncan C</b>, Lok Chan, Kenzie Doyle, Walter Sinnott-Armstrong, Vincent
-                            Conitzer, Jana Schaich Borg,John P Dickerson. “Indecision Modeling.”
-                            <i>Conference on Artificial Intelligence (AAAI)</i>. 2021. (<a
-                                    href="files/indecision_modeling_AAAI21.pdf" target="_blank" a="">pdf</a>) (<a
-                                    href="files/indecision_modeling_poster_AAAI21.pdf" target="_blank" a="">poster</a>) [<a
-                                    href="https://arxiv.org/abs/2012.08485" target="_blank" a="">arXiv</a>]
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                        Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>, John P
-                            Dickerson, Michelle L Mazurek and Michael Carl Tschantz. “Measuring Non-Expert Comprehension
-                            of Machine Learning Fairness Metrics.” <i>Proceedings of the Thirty-seventh International
-                                Conference on Machine Learning (ICML)</i>. 2020.
-                            [<a href="https://arxiv.org/abs/2001.00089" target="_blank">arXiv</a>]
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            Chan, Lok, Kenzie Doyle, <b>Duncan C McElfresh</b>, Vincent Conitzer, John P Dickerson, Jana
-                            Schaich Borg and Walter Sinnott-Armstrong. “Artificial Artificial Intelligence: Measuring
-                            Influence of AI "Assessments" on Moral Decision-Making.” <i>AAAI/ACM Conference on
-                                Artificial Intelligence, Ethics, and Society (<a
-                                    href="https://www.aies-conference.com/2020/" target="_blank" a="">AIES</a>)</i>,
-                            2020.
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>,, John P Dickerson, Michelle L
-                            Mazurek and
-                            Michael Carl Tschantz. “Human Comprehension of Fairness in Machine Learning." <i>AAAI/ACM
-                                Conference on Artificial Intelligence, Ethics, and Society (<a
-                                    href="https://www.aies-conference.com/2020/" target="_blank" a="">AIES</a>)</i>,
-                            2020.
-
-                        <li class="list-group-item bg-light"><b>McElfresh, Duncan C</b>, Vincent Conitzer, and John P
-                            Dickerson. “Ethics and Mechanism Design in Kidney Exchange.” (Working paper.)</li>
-
-                        <li class="list-group-item bg-light">
-                            <b>McElfresh, Duncan C</b>, Samuel Dooley, Charles Cui, Kendra Griesman, Weiqin Wang, Tyler
-                            Will, Neil Sehgal and John Dickerson. “Can an Algorithm be My Healthcare Proxy?” <i>2020
-                                International Workshop on Health Intelligence (at AAAI)</i>. 2020. (Workshop Paper.)
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            <b>McElfresh, Duncan C</b>. “A Framework for Technically- and Morally-Sound AI.”
-                            <i>AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES)</i>, 2019.
-                            (Student program and poster.)
-                        </li>
-                    </ul>
-
+                <div class="text-center">
+                    <img class="img-max rounded-circle border-custom" src="./img/profile.jpg" alt="photo of Duncan">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</header>
 
-    <section id="publications">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Publications</h2>
+<a class="anchor" id="research"></a>
+<section class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <h2>Research</h2>
+                <p class="top-buffer">
+                    I apply <a href="#research-resource">Resource Allocation</a> and
+                    market
+                    design methods to real settings, including <a href="#research-kex">Kidney
+                    Exchange</a> and <a href="#research-blood">Blood Donation</a>. This
+                    work combines theory (such as matching and complexity analysis), empirical methods (such as
+                    data-driven simulations), and real-world experiments. To ensure that these systems align with
+                    stakeholder interests, I also study <a href="#research-decision">AI and Human Decision
+                    Making</a>. My academic advisor is <a class="custom" href="http://jpdickerson.com/" class="hdr"
+                                                          target="_blank" a="">John P Dickerson</a>.
+                </p>
 
-                    <h5>"Top Tier" Conference Publications</h5>
 
-                    <ul>
-                        <li class="list-group-item">
-                            <b>McElfresh, Duncan C</b>, Lok Chan, Kenzie Doyle, Walter Sinnott-Armstrong, Vincent
-                            Conitzer, Jana Schaich Borg,John P Dickerson. “Indecision Modeling.”
-                            <i>Conference on Artificial Intelligence (AAAI)</i>. 2021. (<a
-                                    href="files/indecision_modeling_AAAI21.pdf" target="_blank" a="">pdf</a>) (<a
-                                    href="files/indecision_modeling_poster_AAAI21.pdf" target="_blank" a="">poster</a>) [<a
-                                    href="https://arxiv.org/abs/2012.08485" target="_blank" a="">arXiv</a>]
-                        </li>
+                <a class="anchor" id="research-resource"></a>
+                <div class="row">
+                    <div class="col-10">
+                        <h2><small>Resource Allocation</small></h2>
+                    </div>
+                </div>
 
-                        <li class="list-group-item">
-                            Haris Aziz, Ágnes Cseh, John P Dickerson, and <b>Duncan C McElfresh</b>. “Optimal Kidney Exchange with Immunosuppressants.”
-                            <i>Conference on Artificial Intelligence (AAAI)</i>. 2021. (<a href="files/optimal_kpd_immunosuppressants_AAAI21.pdf" target="_blank" a="">pdf</a>)
-                        </li>
+                <p>
+                    I apply resource allocation and market design methods to real settings, including <a
+                        href="#research-kex">Kidney Exchange</a> and <a
+                        href="#research-blood">Blood Donation</a>. This work
+                    combines theory (such as matching and complexity analysis), empirical methods (such as
+                    data-driven
+                    simulations), and real-world experiments.
+                </p>
 
-                        <li class="list-group-item">
-                            <b>McElfresh, Duncan C</b>, Michael Curry, Tuomas Sandholm,
-                            and John P Dickerson, "Improving Policy-Constrained Kidney Exchange via Pre-Screening.”
-                            <i>Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems (NeurIPS)</i>, 2020.
-                            (<a href="files/KPD_PreScreen_NeurIPS20.pdf" target="_blank" a="">pdf</a>) [<a href="https://arxiv.org/abs/2010.12069" target="_blank">arXiv</a>]
-                        </li>
+                <a class="anchor" id="research-kex"></a>
+                <div class="row extra-top">
+                    <div class="my-auto col-md-6 text-center">
+                        <h3>Kidney Exchange</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="img-max" src="img/kex.png" alt="kidney exchange"/>
+                    </div>
+                </div>
+                <p></p>
+                <p>Patients with kidney failure have only two options: a lifetime on dialysis, or kidney
+                    transplantation. Dialysis is far more expensive and burdensome than transplantation,
+                    however
+                    donor kidneys are scarce — on average, <a class="custom"
+                                                              href="https://optn.transplant.hrsa.gov/learn/professional-education/kidney-allocation-system/"
+                                                              target="_blank">20 people die each day in
+                        the US while waiting for a
+                        transplant</a>.
+                    Furthermore, many patients in need of a kidney have willing living donors, but
+                    cannot undergo
+                    transplantation due to medical incompatibilities.</p>
 
-                        <li class="list-group-item">
-                            Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>, John P
-                            Dickerson, Michelle L Mazurek and Michael Carl Tschantz. “Measuring Non-Expert Comprehension
-                            of Machine Learning Fairness Metrics.” <i>Proceedings of the Thirty-seventh International
-                                Conference on Machine Learning (ICML)</i>. 2020.
-                            [<a href="https://arxiv.org/abs/2001.00089" target="_blank">arXiv</a>]
-                        </li>
+                <p>
+                    <a class="expand btn button-custom" data-toggle="collapse" href="#collapse-kpd"
+                       role="button"
+                       aria-expanded="false" aria-controls="collapse-kpd">
+                        <span class="collapsed">
+                            Show more &or;
+                        </span>
+                        <span class="expanded">
+                            Show Less &and;
+                        </span>
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-kpd">
+                    <div class="card card-body">
 
-                        <li class="list-group-item">
-                            <b>McElfresh, Duncan C</b>, Christian Kroer, Sergey Pupyrev, Eric
-                            Sodomka, Karthik Abinav Sankararaman, Zack Chauvin, Neil Dexter, John P Dickerson. “Matching
-                            Algorithms for Blood Donation” <i>The 21st ACM Conference on Economics and Computation
-                            (EC)</i><a href="files/blood_matching_EC20.pdf"></a>. 2020. (<a href="https://dl.acm.org/doi/abs/10.1145/3391403.3399458" target="_blank">link</a>)
-                        </li>
+                        <p>To address this supply-demand mismatch, kidney exchange allows patients with willing
+                            living
+                            donors to swap their donors in order to find a compatible (or better) patient-donor
+                            match.
+                            Formulated as an optimization problem, kidney exchange is NP-hard and APX-hard,
+                            though modern
+                            exchanges are solvable in a reasonable amount of time (due to efficient formulations
+                            such as <a class="custom"
+                                       href="https://dl.acm.org/citation.cfm?id=2940759"
+                                       target="_blank">PICEF</a>
+                            and <a class="custom"
+                                   href="http://www.pnas.org/content/112/3/663.short"
+                                   target="_blank">PC-TSP</a>).</p>
 
-                        <li class="list-group-item">B
-                            idkhori, Hoda, John P Dickerson, Ke Ren, and <b>Duncan C
+                        <h5>Robustness to Uncertainty</h5>
+                        There are many sources of uncertainty in real kidney exchanges—due to medical, moral,
+                        and policy
+                        factors. These sources of uncertainty are difficult to characterize, and can severely
+                        impact the
+                        outcome of an exchange. We investigate techniques from robust optimization to address
+                        this problem.
+                        <p></p>
+
+                        <h6>Publications:</h6>
+                        <ul>
+                            <li class="list-group-item"><b>McElfresh, Duncan C</b>, Michael Curry,
+                                Tuomas Sandholm,
+                                and John P Dickerson, "Improving Policy-Constrained Kidney Exchange via
+                                Pre-Screening.”
+                                <i>Advances in Neural Information Processing Systems 33: Annual Conference on
+                                    Neural
+                                    Information Processing Systems (NeurIPS)</i>, 2020.
+                                (<a class="custom" href="files/KPD_PreScreen_NeurIPS20.pdf" target="_blank" a="">pdf</a>)
+                                [<a
+                                        class="custom" href="https://arxiv.org/abs/2010.12069" target="_blank">arXiv</a>]
+                                <<a class="custom" href="https://github.com/duncanmcelfresh/kpd-edge-query"
+                                    target="_blank" a="">code</a>>
+                            </li>
+                            <li class="list-group-item">
+                                Bidkhori, Hoda, John P Dickerson, Ke Ren, and <b>Duncan C
                                 McElfresh</b>. “Kidney exchange with Inhomogeneous Edge Existence Uncertainty.”
-                            <i>Conference on Uncertainty in Artificial Intelligence (UAI)</i>. 2020.
-                            [<a href="https://arxiv.org/abs/2007.03191" target="_blank">arXiv</a>]
-                        </li>
+                                <i>Conference on Uncertainty in Artificial Intelligence (UAI)</i>. 2020.
+                                [<a class="custom" href="https://arxiv.org/abs/2007.03191" target="_blank">arXiv</a>]
+                            </li>
+                            <li class="list-group-item">
+                                <b>McElfresh, Duncan C</b>, Hoda Bidkhori, and John P Dickerson, "Scalable
+                                Robust Kidney
+                                Exchange.” <i>Conference on Artificial Intelligence
+                                (AAAI)</i>, 2019. (<a class="custom" href="files/robust_kex_aaai19.pdf" target="_blank"
+                                                      a="">pdf</a>)
+                                [<a class="custom" href="https://arxiv.org/abs/1811.03532" target="_blank">arXiv</a>] <<a class="custom" href="https://github.com/duncanmcelfresh/RobustKidneyExchange"
+                                    target="_blank" a="">code</a>>
+                            </li>
+                        </ul>
 
-                        <li class="list-group-item">
-                            Chan, Lok, Kenzie Doyle, <b>Duncan C McElfresh</b>, Vincent Conitzer, John P Dickerson, Jana
-                            Schaich Borg and Walter Sinnott-Armstrong. “Artificial Artificial Intelligence: Measuring
-                            Influence of AI "Assessments" on Moral Decision-Making.” <i>AAAI/ACM Conference on
-                                Artificial Intelligence, Ethics, and Society (<a
-                                    href="https://www.aies-conference.com/2020/" target="_blank" a="">AIES</a>)</i>,
-                            2020. [<a href="https://arxiv.org/abs/2001.09766" target="_blank">arXiv</a>]
-                        </li>
+                        <h5>Fairness in Kidney Exchange</h5>
+                        <p>How can we prioritize marginalized patients, without severely impacting the overall
+                            exchange? We
+                            study several different methods for enforcing this notion of fairness, and
+                            demonstrate their
+                            effects on data collected from real exchanges.</p>
 
-                        <li class="list-group-item">
-                            Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>, John P Dickerson, Michelle L
-                            Mazurek and
-                            Michael Carl Tschantz. “Human Comprehension of Fairness in Machine Learning." <i>AAAI/ACM
-                                Conference on Artificial Intelligence, Ethics, and Society (<a
-                                    href="https://www.aies-conference.com/2020/" target="_blank" a="">AIES</a>)</i>,
-                            2020. [<a href="https://arxiv.org/abs/2001.00089" target="_blank">arXiv</a>]
-                        </li>
+                        <h6>Publications:</h6>
+                        <ul>
+                            <li class="list-group-item">
+                                <b>McElfresh, Duncan C</b>, and John P Dickerson, "Balancing
+                                lexicographic fairness and a utilitarian objective with application to kidney
+                                exchange."
+                                <i>Conference on Artificial Intelligence (AAAI)</i>, 2018. (<a
+                                    class="custom" href="files/kex_fairness_aaai.pdf" target="_blank" a="">pdf</a>)
+                                [<a class="custom" href="https://arxiv.org/abs/1702.08286" target="_blank">arXiv</a>] <<a class="custom" href="https://github.com/duncanmcelfresh/FairKidneyExchange"
+                                    target="_blank" a="">code</a>>
+                            </li>
+                        </ul>
 
-                        <li class="list-group-item"><b>McElfresh, Duncan C</b>, Hoda Bidkhori, and John P Dickerson,
-                            "Scalable Robust Kidney Exchange.” <i>Conference on Artificial Intelligence (AAAI)</i>, 2019.
-                            (<a href="files/robust_kex_aaai19.pdf" target="_blank" a="">pdf</a>)
-                        </li>
+                        <h5>Ethics and Kidney Exchange</h5>
 
-                        <li class="list-group-item"><b>McElfresh, Duncan C</b>, and John P Dickerson, "Balancing
-                            lexicographic fairness and a utilitarian objective with application to kidney exchange."
-                            <i>Conference on Artificial Intelligence (AAAI)</i>, 2018. (<a
-                                href="files/kex_fairness_aaai.pdf" target="_blank" a="">pdf</a>)</li>
+                        <p>Designing a kidney exchange program requires input from medical professionals,
+                            policymakers,
+                            computer scientists, and ethicists. A "good" program should be both technically- and
+                            morally-sound — however technical experts (e.g., computer scientists) and
+                            stakeholders (e.g.,
+                            medical professionals) often work independently. We propose a formal division of
+                            labor between
+                            technical experts and stakeholders, and outline a framework through which these
+                            experts can
+                            collaborate. Through this framework we analyze existing kidney exchange programs and
+                            survey the
+                            technical literature on kidney exchange algorithms. We identify areas for future
+                            collaboration
+                            between technical experts and stakeholders.
+                        </p>
 
-                        <li class="list-group-item">Bach, Jörg-Hendrik, Arne-Freerk Meyer, <b>Duncan McElfresh</b>, Jörn
-                            Anemüller, "Automatic classification of audio data using nonlinear neural response models."
-                            <i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>,
-                            2012. (<a href="files/BachEtAl_ICASSP2012.pdf" target="_blank" a="">pdf</a>)</li>
-                        </li>
+                        <h6>Publications:</h6>
+                        <ul>
 
+                            <li class="list-group-item">
+                                <b>McElfresh, Duncan C</b>, Vincent Conitzer, and John P Dickerson. “Ethics and
+                                Mechanism
+                                Design in Kidney Exchange.” (Working paper).
+                            </li>
 
+                            <li class="list-group-item">
+                                <i>Presentation:</i> <b>McElfresh, Duncan C</b>, Patricia Mayer, Gabriel
+                                Schnickel, and
+                                John P Dickerson. <i>"Ok Google: Who Gets the Kidney?": Artificial Intelligence
+                                and
+                                Transplant Algorithms.</i> Panel presentation and discussion at the annual
+                                meeting of
+                                the American Society of Bioethics and Humanities (ASBH), Anaheim, CA. (<a
+                                    class="custom" href="files/OK_Google_ASBH_2018.pdf" target="_blank" a="">slides</a>)
+                            </li>
 
-                    </ul>
+                        </ul>
 
+                        <h5>Immunosuppression</h5>
 
-                    <h5>Working Papers</h5>
+                        <p>Recent advances in immunosuppression treatments allow some patients to receive a kidney
+                            transplant from donors who are otherwise medically incompatible. We develop a
+                            theoretical
+                            model for this setting, and provide an optimization framework for a wide variety of
+                            objectives (e.g., prioritizing certain types of patients or transplants). Simulations
+                            indicate that even a small number of immunosuppressants (10 or 20) can <em>double</em>
+                            the
+                            number of transplants facilitated by real-sized exchanges with hundreds of patients.
+                        </p>
 
-                    <ul>
+                        <h6>Publications:</h6>
+                        <ul>
+                            <li class="list-group-item">
+                                Haris Aziz, Ágnes Cseh, John P Dickerson, and <b>Duncan C McElfresh</b>. “Optimal
+                                Kidney
+                                Exchange with Immunosuppressants.”
+                                <i>Conference on Artificial Intelligence (AAAI)</i>. 2021. (<a
+                                    class="custom" href="files/optimal_kpd_immunosuppressants_AAAI21.pdf"
+                                    target="_blank"
+                                    a="">pdf</a>) [<a
+                                    class="custom" href="https://arxiv.org/abs/2103.02253" target="_blank"
+                                    a="">arXiv</a>]
+                            </li>
+                        </ul>
+                        <p>
+                            <a class="expand btn button-custom" data-toggle="collapse" href="#collapse-kpd"
+                               role="button"
+                               aria-expanded="false" aria-controls="collapse-kpd">
+                        <span class="expanded">
+                            Show Less &and;
+                        </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
 
-                        <li class="list-group-item">
-                            Phebe Vayanos, <b>Duncan C McElfresh</b>, Yingxiao Ye, John P Dickerson, and Eric Rice.
-                            “Active Preference Elicitation via Adjustable Robust Optimization.” (<a
-                                href="files/Active_Preference_Elicitation_via_Adjustable_Robust_Optimization.pdf"
-                                target="_blank" a="">pdf</a>) <i>(Under review at Management Science.)</i>
-                        </li>
+                <p></p>
+                <a class="anchor" id="research-blood"></a>
+                <div class="row extra-top">
+                    <div class="my-auto col-md-6 text-center">
+                        <h3>Blood Donation</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="img-max" src="img/blood.png" alt="blood matching"/>
+                    </div>
+                </div>
 
-                        <li class="list-group-item"><b>McElfresh, Duncan C</b>, Vincent Conitzer, and John P Dickerson.
-                            “Ethics and Mechanism Design in Kidney Exchange.”</li>
+                <p></p>
 
+                <p>Blood is a scarce resource that can save the lives of those in need, and managing the
+                    blood
+                    supply chain has been a topic of research for decades. We consider an aspect of the
+                    blood supply
+                    chain that is seldom addressed by the literature: coordinating a network of donors
+                    to meet
+                    demand from a network of recipients. The advent of massive online networks presents
+                    an
+                    unprecedented opportunity to increase the number and impact of blood donations.</p>
 
-                    </ul>
+                <p>
+                    <a class="expand btn button-custom" data-toggle="collapse" href="#collapse-blood"
+                       role="button"
+                       aria-expanded="false" aria-controls="collapse-blood">
+                        <span class="collapsed">
+                            Show more &or;
+                        </span>
+                        <span class="expanded">
+                            Show Less &and;
+                        </span>
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-blood">
+                    <div class="card card-body">
 
+                        <p>
+                            In a collaboration with Facebook, we deployed the first large-scale algorithmic system
+                            for
+                            matching blood donors with recipients. We focused on the <a class="custom" target="none"
+                                                                                        href="https://www.facebook.com/donateblood">Facebook
+                            Blood Donation Tool</a>, a platform that connects prospective blood donors with nearby
+                            recipients. There are many objectives in this setting, including: increasing the number
+                            of
+                            blood donations, treating recipients fairly, and respecting user preferences. To
+                            formalize
+                            these goals we developed an online matching framework, and matching policies for
+                            automatic
+                            donor notification. Both simulations and a fielded experiment demonstrate that our
+                            methods
+                            increase expected donation rates by 5% which—when
+                            generalized to the entire Blood Donation Tool—corresponds to an increase in tens of
+                            thousands of donations every few months.
+                        </p>
 
-                    <h5>Other Publications</h5>
-
-                    <ul>
-                        <li class="list-group-item">
-                            <b>McElfresh, Duncan C</b>, Samuel Dooley, Charles Cui, Kendra Griesman, Weiqin Wang, Tyler
-                            Will, Neil Sehgal and John Dickerson. “Can an Algorithm be My Healthcare Proxy?” <i>2020
-                                International Workshop on Health Intelligence (at AAAI)</i>. 2020. (Workshop Paper.)
-                        </li>
-
-                        <li class="list-group-item">
-                        <li class="list-group-item">
-                        <b>McElfresh, Duncan C</b>, Christian Kroer, Sergey Pupyrev, Eric
-                            Sodomka, John P Dickerson. “Matching Algorithms for Blood Donation.” <i>Workshop on
-                                Mechanism Design for Social Good <a href="http://www.md4sg.com" target="_blank"
-                                    a="">MD4SG</a></i>, 2019. (Poster and Presentation.)
-                        </li>
-
-
-                        <li class="list-group-item">
-                            <b>McElfresh, Duncan C</b>. “A Framework for Technically- and Morally-Sound AI.”
-                            <i>AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES)</i>, 2019.
-                            (Student program and poster.)
-                        </li>
-
-                        <li class="list-group-item">
-                            <b>McElfresh, Duncan C</b>, "Triplet exciton transport in the
-                            benzophenone-fluorene-naphthalene molecule." <i>Master's Thesis, Colorado School of
-                                Mines</i>, 2013. (<a href="files/McElfresh_masters_thesis.pdf" target="_blank" a="">pdf</a>)
-                        </li>
-
+                        <h6>Publications:</h6>
 
                         <ul>
 
+                            <li class="list-group-item">
+                                <b>McElfresh, Duncan C</b>, Christian Kroer, Sergey Pupyrev, Eric
+                                Sodomka, Karthik Abinav Sankararaman, Zack Chauvin, Neil Dexter, John P
+                                Dickerson. “Matching
+                                Algorithms for Blood Donation” <i>The 21st ACM Conference on Economics and
+                                Computation
+                                (EC)</i><a class="custom" href="files/blood_matching_EC20.pdf"></a>. 2020. (<a
+                                    class="custom" href="https://dl.acm.org/doi/abs/10.1145/3391403.3399458"
+                                    target="_blank">link</a>)
+                            </li>
+
+                            <li class="list-group-item">
+                                <i>Poster and Presentation:</i> <b>McElfresh, Duncan C</b>, Christian Kroer,
+                                Sergey
+                                Pupyrev, Eric Sodomka, John P Dickerson. “Matching Algorithms for Blood
+                                Donation.”
+                                <i>Workshop on Mechanism Design for Social Good <a class="custom"
+                                                                                   href="http://www.md4sg.com"
+                                                                                   target="_blank"
+                                                                                   a="">MD4SG</a></i>, 2019.
+                            </li>
                         </ul>
+                        <p>
+                            <a class="expand btn button-custom" data-toggle="collapse" href="#collapse-blood"
+                               role="button"
+                               aria-expanded="false" aria-controls="collapse-blood">
+                        <span class="expanded">
+                            Show Less &and;
+                        </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <a class="anchor" id="research-decision"></a>
+                <div class="row">
+                    <div class="col-10">
+                        <h2><small>AI and Human Decision Making</small></h2>
+                    </div>
+                </div>
+
+                <p>AI is increasingly used to influence, or make, important decisions in a wide range of domains,
+                    including medicine, education, criminal justice, and financial services. Indeed, two key
+                    examples
+                    are kidney exchange and blood donation. I study the interaction between
+                    stakeholders and algorithmic decision tools, with an eye toward developing responsible decision
+                    support tools.</p>
+
+                <div class="row extra-top">
+                    <div class="my-auto col-md-6 text-center">
+                        <h3>Perceptions of algorithmic "fairness"</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-center">
+                            <img class="img-max img-thumbnail" src="img/survey.png" alt="kidney exchange"/>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+                <p>
+                    AI and ML researchers have proposed several mathematical definitions of fairness, however it is
+                    not
+                    clear if stakeholders understand or agree with these notions. We develop and validate a
+                    comprehension score to measure peoples’ understanding of mathematical fairness. Using a
+                    hypothetical decision scenario related to hiring, we translate several mathematical fairness
+                    definitions into “rules” that a hiring manager must follow. Using our comprehension
+                    score, we find that most people do not understand these rules, and those who do often disagree
+                    with
+                    them. This raises questions about the usefulness of algorithmic fairness: can an AI system be
+                    truly “fair” if its stakeholders do not understand its behavior?
+                </p>
+
+                <p>
+                    <a class="expand btn button-custom" data-toggle="collapse" href="#collapse-fair" role="button"
+                       aria-expanded="false" aria-controls="collapse-fair">
+                        <span class="collapsed">
+                            Publications &or;
+                        </span>
+                        <span class="expanded">
+                            Publications &and;
+                        </span>
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-fair">
+                    <div class="card card-body">
+                        <ul>
+                            <li class="list-group-item">
+                                Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>, John P
+                                Dickerson, Michelle L Mazurek and Michael Carl Tschantz. “Measuring Non-Expert
+                                Comprehension
+                                of Machine Learning Fairness Metrics.” <i>Proceedings of the Thirty-seventh
+                                International
+                                Conference on Machine Learning (ICML)</i>. 2020.
+                                [<a class="custom" href="https://arxiv.org/abs/2001.00089" target="_blank">arXiv</a>]
+                            </li>
+
+                            <li class="list-group-item">
+                                Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>, John P Dickerson,
+                                Michelle L
+                                Mazurek and Michael Carl Tschantz. “Human Comprehension of Fairness in Machine
+                                Learning." <i>AAAI/ACM
+                                Conference on Artificial Intelligence, Ethics, and Society</i> (<a
+                                    class="custom" href="https://www.aies-conference.com/2020/" target="_blank" a="">AIES</a>),
+                                2020. (<a class="custom" href="https://dl.acm.org/doi/10.1145/3375627.3375819"
+                                          target="_blank">link</a>)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row extra-top">
+                    <div class="my-auto col-md-6 text-center">
+                        <h3>Understanding Indecision</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="img-max" src="img/decision.png" alt="kidney exchange"/>
+                    </div>
+                </div>
+                <p></p>
+                <p>
+                    Many modern
+                    AI methods, are guided by models of stake-
+                    holder preferences, which are often learned
+                    through observed decisions (such as product
+                    purchases) or through hypothetical decisions
+                    (e.g., surveys). There are many cases where
+                    stakeholders may be unwilling to express a
+                    preference: for example, if more information
+                    is needed to arrive at a decision, or of all available options are bad; in these cases we say
+                    they
+                    are indecisive. Drawing from moral philosophy
+                    and psychology, we develop a class of indecision models, which can be fit to observed data; in
+                    two
+                    survey studies we that indecision is common,
+                    and several causes of indecision are plausible. This raises many questions for the use of AI in
+                    decision making: from a theoretical perspective, how should we aggregate indecisive voters if
+                    indecision has multiple meanings? From an empirical perspective, how can we identify an
+                    indecisive
+                    agent, and what characteristics of a decision scenario lead to indecision?
+                </p>
+
+                <p>
+                    <a class="expand btn button-custom" data-toggle="collapse" href="#collapse-indecision"
+                       role="button"
+                       aria-expanded="false" aria-controls="collapse-indecision">
+                        <span class="collapsed">
+                            Publications &or;
+                        </span>
+                        <span class="expanded">
+                            Publications &and;
+                        </span>
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-indecision">
+                    <div class="card card-body">
+                        <ul>
+                            <li class="list-group-item">
+                                <b>McElfresh, Duncan C</b>, Lok Chan, Kenzie Doyle, Walter Sinnott-Armstrong,
+                                Vincent
+                                Conitzer, Jana Schaich Borg,John P Dickerson. “Indecision Modeling.”
+                                <i>Conference on Artificial Intelligence (AAAI)</i>. 2021. (<a
+                                    class="custom" href="files/indecision_modeling_AAAI21.pdf" target="_blank"
+                                    a="">pdf</a>) (<a
+                                    class="custom" href="files/indecision_modeling_poster_AAAI21.pdf" target="_blank"
+                                    a="">poster</a>)
+                                [<a
+                                    class="custom" href="https://arxiv.org/abs/2012.08485" target="_blank"
+                                    a="">arXiv</a>] <<a
+                                    class="custom" href="https://github.com/duncanmcelfresh/indecision-modeling"
+                                    target="_blank" a="">code</a>>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="row extra-top">
+                    <div class="my-auto col-md-6 text-center">
+                        <h3>AI-Influenced Decision Making</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <!--                            <img class="img-max" src="img/kex.png" alt="kidney exchange"/>-->
+                    </div>
+                </div>
+                <p></p>
+                <p>
+                    Using a survey study we simulate the effect of an AI tool on decision making: we suggest random
+                    predictions of participant preferences, and we attribute this prediction to an "AI system," or a
+                    human "expert." We find that participants follow these prediction—even though they are random—
+                    both
+                    when the predictions are attributed to “AI”, and to "experts" (compared with a control group
+                    that
+                    receives no prediction). This has serious implications for AI in decision making: if random
+                    decision
+                    support can influence a stakeholder’s behavior, it is easy to imagine that adversarial AI
+                    systems
+                    can easily manipulate a stakeholder’s decisions. Furthermore, if AI tools are both trained on
+                    and
+                    influence stakeholders’ behavior, it is difficult to define what a "correct" decision is.
+                </p>
+
+                <p>
+                    <a class="expand btn button-custom" data-toggle="collapse" href="#collapse-influence"
+                       role="button"
+                       aria-expanded="false" aria-controls="collapse-influence">
+                        <span class="collapsed">
+                            Publications &or;
+                        </span>
+                        <span class="expanded">
+                            Publications &and;
+                        </span>
+                    </a>
+                </p>
+                <div class="collapse" id="collapse-influence">
+                    <div class="card card-body">
+                        <ul>
+                            <li class="list-group-item">
+                                Chan, Lok, Kenzie Doyle, <b>Duncan C McElfresh</b>, Vincent Conitzer, John P
+                                Dickerson,
+                                Jana
+                                Schaich Borg and Walter Sinnott-Armstrong. “Artificial Artificial Intelligence:
+                                Measuring
+                                Influence of AI "Assessments" on Moral Decision-Making.” <i>AAAI/ACM Conference on
+                                Artificial Intelligence, Ethics, and Society (<a
+                                        class="custom" href="https://www.aies-conference.com/2020/" target="_blank"
+                                        a="">AIES</a>)</i>,
+                                2020. [<a class="custom" href="https://arxiv.org/abs/2001.09766"
+                                          target="_blank">arXiv</a>]
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+</section>
+
+<a class="anchor" id="publications"></a>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Publications</h2>
+
+                <h5>"Top Tier" Conference Publications</h5>
+
+                <ul>
+                    <h4>2021</h4>
+
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, Lok Chan, Kenzie Doyle, Walter Sinnott-Armstrong, Vincent
+                        Conitzer, Jana Schaich Borg,John P Dickerson. “Indecision Modeling.”
+                        <i>Conference on Artificial Intelligence (AAAI)</i>. 2021. (<a
+                            class="custom" href="files/indecision_modeling_AAAI21.pdf" target="_blank" a="">pdf</a>) (<a
+                            class="custom" href="files/indecision_modeling_poster_AAAI21.pdf" target="_blank" a="">poster</a>)
+                        [<a
+                            class="custom" href="https://arxiv.org/abs/2012.08485" target="_blank" a="">arXiv</a>] <<a
+                            class="custom" href="https://github.com/duncanmcelfresh/indecision-modeling" target="_blank"
+                            a="">code</a>>
+                    </li>
+
+                    <li class="list-group-item">
+                        Haris Aziz, Ágnes Cseh, John P Dickerson, and <b>Duncan C McElfresh</b>. “Optimal Kidney
+                        Exchange with Immunosuppressants.”
+                        <i>Conference on Artificial Intelligence (AAAI)</i>. 2021. (<a
+                            class="custom" href="files/optimal_kpd_immunosuppressants_AAAI21.pdf" target="_blank" a="">pdf</a>)
+                        [<a
+                            class="custom" href="https://arxiv.org/abs/2103.02253" target="_blank" a="">arXiv</a>]
+                    </li>
+
+                    <h4>2020</h4>
+
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, Michael Curry, Tuomas Sandholm,
+                        and John P Dickerson, "Improving Policy-Constrained Kidney Exchange via Pre-Screening.”
+                        <i>Advances in Neural Information Processing Systems 33: Annual Conference on Neural
+                            Information
+                            Processing Systems (NeurIPS)</i>, 2020.
+                        (<a class="custom" href="files/KPD_PreScreen_NeurIPS20.pdf" target="_blank" a="">pdf</a>) [<a
+                            class="custom" href="https://arxiv.org/abs/2010.12069" target="_blank">arXiv</a>]
+                        <<a class="custom" href="https://github.com/duncanmcelfresh/kpd-edge-query" target="_blank"
+                            a="">code</a>>
+                    </li>
+
+                    <li class="list-group-item">
+                        Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>, John P
+                        Dickerson, Michelle L Mazurek and Michael Carl Tschantz. “Measuring Non-Expert Comprehension
+                        of Machine Learning Fairness Metrics.” <i>Proceedings of the Thirty-seventh International
+                        Conference on Machine Learning (ICML)</i>. 2020.
+                        [<a class="custom" href="https://arxiv.org/abs/2001.00089" target="_blank">arXiv</a>]
+                    </li>
+
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, Christian Kroer, Sergey Pupyrev, Eric
+                        Sodomka, Karthik Abinav Sankararaman, Zack Chauvin, Neil Dexter, John P Dickerson. “Matching
+                        Algorithms for Blood Donation” <i>The 21st ACM Conference on Economics and Computation
+                        (EC)</i><a class="custom" href="files/blood_matching_EC20.pdf"></a>. 2020. (<a
+                            class="custom" href="https://dl.acm.org/doi/abs/10.1145/3391403.3399458" target="_blank">link</a>)
+                    </li>
+
+                    <li class="list-group-item">B
+                        Bidkhori, Hoda, John P Dickerson, Ke Ren, and <b>Duncan C
+                            McElfresh</b>. “Kidney exchange with Inhomogeneous Edge Existence Uncertainty.”
+                        <i>Conference on Uncertainty in Artificial Intelligence (UAI)</i>. 2020.
+                        [<a class="custom" href="https://arxiv.org/abs/2007.03191" target="_blank">arXiv</a>]
+                    </li>
+
+                    <li class="list-group-item">
+                        Chan, Lok, Kenzie Doyle, <b>Duncan C McElfresh</b>, Vincent Conitzer, John P Dickerson, Jana
+                        Schaich Borg and Walter Sinnott-Armstrong. “Artificial Artificial Intelligence: Measuring
+                        Influence of AI "Assessments" on Moral Decision-Making.” <i>AAAI/ACM Conference on
+                        Artificial Intelligence, Ethics, and Society (<a
+                                class="custom" href="https://www.aies-conference.com/2020/" target="_blank"
+                                a="">AIES</a>)</i>,
+                        2020. [<a class="custom" href="https://arxiv.org/abs/2001.09766" target="_blank">arXiv</a>]
+                    </li>
+
+                    <li class="list-group-item">
+                        Saha, Debjani, Candice Schumann, <b>Duncan C McElfresh</b>, John P Dickerson, Michelle L
+                        Mazurek and Michael Carl Tschantz. “Human Comprehension of Fairness in Machine Learning."
+                        <i>AAAI/ACM
+                            Conference on Artificial Intelligence, Ethics, and Society</i> (<a
+                            class="custom" href="https://www.aies-conference.com/2020/" target="_blank" a="">AIES</a>),
+                        2020. (<a class="custom" href="https://dl.acm.org/doi/10.1145/3375627.3375819" target="_blank">link</a>)
+                    </li>
+
+                    <h4>2019</h4>
+
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, Hoda Bidkhori, and John P Dickerson, "Scalable Robust Kidney
+                        Exchange.” <i>Conference on Artificial Intelligence
+                        (AAAI)</i>, 2019. (<a class="custom" href="files/robust_kex_aaai19.pdf" target="_blank"
+                                              a="">pdf</a>)
+                        [<a class="custom" href="https://arxiv.org/abs/1811.03532" target="_blank">arXiv</a>] <<a class="custom" href="https://github.com/duncanmcelfresh/RobustKidneyExchange"
+                                    target="_blank" a="">code</a>>
+                    </li>
+
+                    <h4>2018</h4>
+
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, and John P Dickerson, "Balancing
+                        lexicographic fairness and a utilitarian objective with application to kidney exchange."
+                        <i>Conference on Artificial Intelligence (AAAI)</i>, 2018. (<a
+                            class="custom" href="files/kex_fairness_aaai.pdf" target="_blank" a="">pdf</a>)
+                        [<a class="custom" href="https://arxiv.org/abs/1702.08286" target="_blank">arXiv</a>] <<a class="custom" href="https://github.com/duncanmcelfresh/FairKidneyExchange"
+                                    target="_blank" a="">code</a>>
+                    </li>
+
+                    <h4>2012</h4>
+
+                    <li class="list-group-item">Bach, Jörg-Hendrik, Arne-Freerk Meyer, <b>Duncan McElfresh</b>, Jörn
+                        Anemüller, "Automatic classification of audio data using nonlinear neural response models."
+                        <i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>,
+                        2012. (<a class="custom" href="files/BachEtAl_ICASSP2012.pdf" target="_blank" a="">pdf</a>)
+                    </li>
+                    </li>
 
 
-    <section id="service" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Service</h2>
+                </ul>
 
-                    <h5>Program Committee (conferences):</h5>
+
+                <h5>Working Papers</h5>
+
+                <ul>
+
+                    <li class="list-group-item">
+                        Phebe Vayanos, <b>Duncan C McElfresh</b>, Yingxiao Ye, John P Dickerson, and Eric Rice.
+                        “Active Preference Elicitation via Adjustable Robust Optimization.” <i>(Under review at
+                        Management Science.)</i>
+                    </li>
+
+                    <li class="list-group-item"><b>McElfresh, Duncan C</b>, Vincent Conitzer, and John P Dickerson.
+                        “Ethics and Mechanism Design in Kidney Exchange.”
+                    </li>
+
+
+                </ul>
+
+
+                <h5>Other Publications</h5>
+
+                <ul>
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, Samuel Dooley, Charles Cui, Kendra Griesman, Weiqin Wang, Tyler
+                        Will, Neil Sehgal and John Dickerson. “Can an Algorithm be My Healthcare Proxy?” <i>2020
+                        International Workshop on Health Intelligence (at AAAI)</i>. 2020. (Workshop Paper.)
+                        [<a class="custom" href="https://arxiv.org/abs/2001.09742" target="_blank">arXiv</a>]
+                    </li>
+
+                    <li class="list-group-item">
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, Christian Kroer, Sergey Pupyrev, Eric
+                        Sodomka, John P Dickerson. “Matching Algorithms for Blood Donation.” <i>Workshop on
+                        Mechanism Design for Social Good <a class="custom" href="http://www.md4sg.com" target="_blank"
+                                                            a="">MD4SG</a></i>, 2019. (Poster and Presentation.)
+                    </li>
+
+
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>. “A Framework for Technically- and Morally-Sound AI.”
+                        <i>AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES)</i>, 2019.
+                        (Student program and poster.)
+                    </li>
+
+                    <li class="list-group-item">
+                        <b>McElfresh, Duncan C</b>, "Triplet exciton transport in the
+                        benzophenone-fluorene-naphthalene molecule." <i>Master's Thesis, Colorado School of
+                        Mines</i>, 2013. (<a class="custom" href="files/McElfresh_masters_thesis.pdf" target="_blank"
+                                             a="">pdf</a>)
+                    </li>
+
+
                     <ul>
 
-
-                        <li class="list-group-item bg-light">
-                            Conference on Neural Information Processing Systems (NeurIPS): 2020
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            Conference on Artificial Intelligence (AAAI): 2020, 2021
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            Conference on Autonomous Agents and Multiagent Systems (AAMAS): 2020
-                        </li>
-
                     </ul>
-
-                    <h5>Program Committee (workshops):</h5>
-                    <ul>
-
-
-                        <li class="list-group-item bg-light">
-                            Workshop on Mechanism Design for Social Good (<a href="http://md4sg.com/workshop/MD4SG20/index.html">MD4SG'20</a>)
-                        </li>
-                        <li class="list-group-item bg-light">
-                            Global Challences in EconCS (<a href="https://www.gcec.org/">GCEC</a>)
-                        </li>
-                        <li class="list-group-item bg-light">
-                            AAMAS Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS 2020)
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            IJCAI workshop on AI for Social Good: 2019
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            NeurIPS workshop on ML and the Physical Sciences: 2020
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            NeurIPS workshop on AI for Social Good: 2019
-                        </li>
-
-                    </ul>
-
-                    <h5>IBM Watson AI XPrize (<a href="https://ai.xprize.org/prizes/artificial-intelligence"
-                            target="_blank" a="">link</a>):</h5>
-
-                    <ul>
-
-                        <li class="list-group-item bg-light">
-                            <b>Red Judge.</b> Helped teams prepare for the semifinal review of the IBM Watson AI XPrize
-                            competition. (2018-2019)
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            <b>Independent Observer.</b> Attended site visits to validate claims made by semifinalist
-                            teams. (2019-2020)
-                        </li>
-
-
-                    </ul>
-
-                    <h5>Organization and Mentorship</h5>
-                    <ul>
-                        <li class="list-group-item bg-light">
-                            <b>Working Group Co-organizer</b>, Mechanism Design for Social Good (MD4SG)
-                            <a href="http://md4sg.com/workinggroups/fairness.html">Working Group on Bias, Discrimination, and Fairness</a>. (2019-present)
-                        </li>
-                        <li class="list-group-item bg-light">
-                            <b>Poster Session Co-organizer</b> (with <a href="https://jfinocchiaro.github.io/">Jessie Fin</a>),
-                            4th Workshop on Mechanism Design for Social Good (<a href="http://md4sg.com/workshop/MD4SG20/index.html">MD4SG'20</a>). (2020)
-                        </li>
-                        <li class="list-group-item bg-light">
-                            <b>Mentor</b>, Global Challences in EconCS (<a href="https://www.gcec.org/">GCEC</a>). (2020)
-                        </li>
-                    </ul>
-
-                    <h5>Department Service and Outreach:</h5>
-
-                    <ul>
-
-
-                        <li class="list-group-item bg-light">
-                            <b>Student Representative.</b> AMSC Student Council. (2018-2019)
-                        </li>
-
-                        <li class="list-group-item bg-light">
-                            <b>Site Coordinator & Mentor.</b> Site Coordinator, Girls Excelling in Math and Science
-                            (GEMS) of Prince George’s County, MD. (<a href="https://gemspgcounty.org/" target="_blank"
-                                a="">link</a>)
-                        </li>
-
-                    </ul>
-                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="connect">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Connect</h2>
-                    <h5 class="display-5">Feel free to get in touch.</h5>
-                    <h5 class="display-5">Email is best: <a href="mailto:dmcelfre@umd.edu" target="_blank"
-                            a="">dmcelfre@umd.edu</a>.</h5>
-                    <ul>
-                        <li><a href="https://github.com/duncanmcelfresh/" target="_blank"><i
-                                    class="fa fa-github fa-2x"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/duncan-mcelfresh-331677a1/" target="_blank"><i
-                                    class="fa fa-linkedin fa-2x"></i></a></li>
-                        <li><a href="https://scholar.google.com/citations?user=BcSedrEAAAAJ&amp;hl=en"
-                                target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a></li>
-                        <!--                    <li class="list-group-item-light bg-light"> dmcelfre@umd.edu </li>-->
-                    </ul>
-                </div>
+
+<a class="anchor" id="service"></a>
+<section class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Service</h2>
+
+                <h5>Program Committee (conferences):</h5>
+                <ul>
+                    <li class="list-group-item bg-light">
+                        Conference on Neural Information Processing Systems (NeurIPS): 2020
+                    </li>
+
+                    <li class="list-group-item bg-light">
+                        Conference on Artificial Intelligence (AAAI): 2020, 2021
+                    </li>
+
+                    <li class="list-group-item bg-light">
+                        Conference on Autonomous Agents and Multiagent Systems (AAMAS): 2020
+                    </li>
+
+                </ul>
+
+                <h5>Program Committee (workshops):</h5>
+                <ul>
+                    <li class="list-group-item bg-light">
+                        Workshop on Mechanism Design for Social Good (<a
+                            class="custom" href="http://md4sg.com/workshop/MD4SG20/index.html">MD4SG'20</a>)
+                    </li>
+                    <li class="list-group-item bg-light">
+                        Global Challences in EconCS (<a class="custom" href="https://www.gcec.org/">GCEC</a>)
+                    </li>
+                    <li class="list-group-item bg-light">
+                        AAMAS Workshop on Optimization and Learning in Multiagent Systems (OptLearnMAS 2020)
+                    </li>
+
+                    <li class="list-group-item bg-light">
+                        IJCAI workshop on AI for Social Good: 2019
+                    </li>
+
+                    <li class="list-group-item bg-light">
+                        NeurIPS workshop on ML and the Physical Sciences: 2020
+                    </li>
+
+                    <li class="list-group-item bg-light">
+                        NeurIPS workshop on AI for Social Good: 2019
+                    </li>
+
+                </ul>
+
+                <h5>IBM Watson AI XPrize (<a class="custom" href="https://ai.xprize.org/prizes/artificial-intelligence"
+                                             target="_blank" a="">link</a>):</h5>
+
+                <ul>
+
+                    <li class="list-group-item bg-light">
+                        <b>Red Judge.</b> Helped teams prepare for the semifinal review of the IBM Watson AI XPrize
+                        competition. (2018-2019)
+                    </li>
+
+                    <li class="list-group-item bg-light">
+                        <b>Independent Observer.</b> Attended site visits to validate claims made by semifinalist
+                        teams. (2019-2020)
+                    </li>
+
+
+                </ul>
+
+                <h5>Organization and Mentorship</h5>
+                <ul>
+                    <li class="list-group-item bg-light">
+                        <b>Working Group Co-organizer</b>, Mechanism Design for Social Good (MD4SG)
+                        <a class="custom" href="https://www.md4sg.com/workinggroups/lawpolicy.html">Working Group on
+                            Algorithms,
+                            Law, and Policy</a>. (2020-present)
+                    </li>
+                    <li class="list-group-item bg-light">
+                        <b>Working Group Co-organizer</b>, Mechanism Design for Social Good (MD4SG)
+                        <a class="custom" href="http://md4sg.com/workinggroups/fairness.html">Working Group on Bias,
+                            Discrimination, and Fairness</a>. (2019-2020)
+                    </li>
+
+                    <li class="list-group-item bg-light">
+                        <b>Poster Session Co-organizer</b> (with <a class="custom"
+                                                                    href="https://jfinocchiaro.github.io/">Jessie
+                        Fin</a>),
+                        4th Workshop on Mechanism Design for Social Good (<a
+                            class="custom" href="http://md4sg.com/workshop/MD4SG20/index.html">MD4SG'20</a>). (2020)
+                    </li>
+                    <li class="list-group-item bg-light">
+                        <b>Mentor</b>, Global Challences in EconCS (<a class="custom"
+                                                                       href="https://www.gcec.org/">GCEC</a>).
+                        (2020)
+                    </li>
+                </ul>
+
+                <h5>Department Service and Outreach:</h5>
+
+                <ul>
+                    <li class="list-group-item bg-light">
+                        <b>Student Representative.</b> AMSC Student Council. (2018-2019)
+                    </li>
+                    <li class="list-group-item bg-light">
+                        <b>Site Coordinator & Mentor.</b> Site Coordinator, Girls Excelling in Math and Science
+                        (GEMS) of Prince George’s County, MD. (<a class="custom" href="https://gemspgcounty.org/"
+                                                                  target="_blank"
+                                                                  a="">link</a>)
+                    </li>
+
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-
-
-
-    <!-- Footer -->
-    <footer class="py-5 bg-customdark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright © Duncan McElfresh 2017</p>
-        </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="./index_files/jquery.min.js"></script>
-    <script src="./index_files/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="./index_files/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="./index_files/scrolling-nav.js"></script>
-
-
-
+<!-- Footer -->
+<footer class="py-5 bg-customdark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Last updated April 2021.</p>
+    </div>
+</footer>
 
 </body>
 
